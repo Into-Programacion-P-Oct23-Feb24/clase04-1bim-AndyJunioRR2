@@ -11,10 +11,15 @@ package ejemplo01;
  */
 public class Ejemplo04 {
     public static void main(String[] args) {
+        /*
+        println vs print
+        El printl nos sirve para dar un salto de linea en el momento de presentar el resultado en pantalla,
+        mientras que el print nos presenta el resultado en una misma linea.
+        */
         String nombreEstudiante = "René Rolando";
         String apellidoEstudiante = "Elizalde Solano";
         int nacimiento = 1983;
-        System.out.print(nombreEstudiante + " ");
+        System.out.println(nombreEstudiante + " ");
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
